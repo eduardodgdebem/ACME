@@ -1,4 +1,4 @@
-class ControleClientes {
+class ControleClientes implements ControleInterface<Cliente> {
   private verificarSeClienteExiste(cliente: Cliente) {}
 
   public cadastrar(novoCliente: Cliente) {}
